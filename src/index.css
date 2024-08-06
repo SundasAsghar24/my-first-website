@@ -1,0 +1,44 @@
+/* Navbar title styling */
+.navbar-brand-title {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Flexbox layout for navbar content */
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Group for left side items */
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px; /* Adjust spacing between buttons as needed */
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-toggler li a{
+    font-size: 20px;
+    color: white;
+    background: white;
+    border: none; /* Remove border if not needed */
+  }
+  
+  /* Optional: adjust button styling inside the offcanvas */
+  .offcanvas-header, .offcanvas-body {
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+
+  
